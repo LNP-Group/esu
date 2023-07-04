@@ -119,32 +119,32 @@ export default function Book() {
 
     return(
         <>
-            <NoSSR>
-                <Head>
-                    <title>
+            <Head>
+                <title>
+                    <NoSSR>
                         {`${name} | ${websiteName}`}
-                    </title>
-                    <meta name="description" content={intro} />
-                    <meta property="og:name" content={`${name} | ${websiteName}`} />
-                    <meta property="og:description" content={intro} />
-                    <meta property="og:image" content={image} />
-                    <meta property="og:image:alt" content={name} />
-                    <meta property="og:url" content={`https://www.esufranchise.com/${localeString}/books/${character}`} />
-                    <meta property="og:type" content="website" />
-                    <meta property="og:locale" content={localeString} />
-                    <meta property="og:site_name" content={websiteName} />
-                    <meta property="og:image:width" content="1200" />
-                    <meta property="og:image:height" content="630" />
-                    <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:name" content={`${name} | ${websiteName}`} />
-                    <meta name="twitter:description" content={intro} />
-                    <meta name="twitter:image" content={image} />
-                    <meta name="twitter:image:alt" content={name} />
-                    <meta name="twitter:site" content="@esufranchise" />
-                    <meta name="twitter:creator" content="@esufranchise" />
-                    <link rel="canonical" href={`https://www.esufranchise.com/${localeString}/books/${character}`} />
-                </Head>
-            </NoSSR>
+                    </NoSSR>
+                </title>
+                <meta name="description" content={intro} />
+                <meta property="og:name" content={`${name} | ${websiteName}`} />
+                <meta property="og:description" content={intro} />
+                <meta property="og:image" content={image} />
+                <meta property="og:image:alt" content={name} />
+                <meta property="og:url" content={`https://www.esufranchise.com/${localeString}/books/${character}`} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content={localeString} />
+                <meta property="og:site_name" content={websiteName} />
+                <meta property="og:image:width" content="1200" />
+                <meta property="og:image:height" content="630" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:name" content={`${name} | ${websiteName}`} />
+                <meta name="twitter:description" content={intro} />
+                <meta name="twitter:image" content={image} />
+                <meta name="twitter:image:alt" content={name} />
+                <meta name="twitter:site" content="@esufranchise" />
+                <meta name="twitter:creator" content="@esufranchise" />
+                <link rel="canonical" href={`https://www.esufranchise.com/${localeString}/books/${character}`} />
+            </Head>
             <NavBar />
             <main className={styles.main}>
                 <div className={styles.infoContainer}>
