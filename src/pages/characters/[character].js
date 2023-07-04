@@ -204,7 +204,7 @@ export default function Book() {
                 <div className={styles.section}>
                     <ul className={styles.characterList}>
                         {
-                            allies.map((ally, index) => {
+                            allies?.map((ally, index) => {
                                 return(
                                     <li key={index} className={styles.characterListItem}>
                                         {ally}
@@ -226,7 +226,7 @@ export default function Book() {
                 <div className={styles.section}>
                     <ul className={styles.characterList}>
                         {
-                            enemies.map((enemy, index) => {
+                            enemies?.map((enemy, index) => {
                                 return(
                                     <li key={index} className={styles.characterListItem}>
                                         {enemy}
@@ -248,7 +248,7 @@ export default function Book() {
                 <div className={styles.section}>
                     <ul className={styles.characterList}>
                         {
-                            powers.map((power, index) => {
+                            powers?.map((power, index) => {
                                 return(
                                     <li key={index} className={styles.characterListItem}>
                                         {power}
@@ -270,7 +270,7 @@ export default function Book() {
                 <div className={styles.section}>
                     <ul className={styles.characterList}>
                         {
-                            appearances.map((appearance, index) => {
+                            appearances?.map((appearance, index) => {
                                 return(
                                     <li key={index} className={styles.characterListItem}>
                                         {appearance}
@@ -292,7 +292,7 @@ export default function Book() {
                 <div className={styles.section}>
                     <ul className={styles.characterList}>
                         {
-                            trivia.map((trivia, index) => {
+                            trivia?.map((trivia, index) => {
                                 return(
                                     <li key={index} className={styles.characterListItem}>
                                         {trivia}
