@@ -6,8 +6,9 @@ import styles from '@/styles/Dynamic.module.css'
 import { useRouter } from 'next/router'
 import { dynamicPages } from '@/i18n/pages'
 import { purpleBolt, thor, madameWilhelmina, doctorHex, theGhost, theEthereals, dracula } from '@/data/books'
+import dynamic from 'next/dynamic'
 
-export default function DynamicPage({ Component, pageProps }) {
+function Book({ Component, pageProps }) {
 
     const router = useRouter()
 
@@ -263,3 +264,7 @@ export default function DynamicPage({ Component, pageProps }) {
         </>
     )
 }
+
+export default dynamic(() => Promise.resolve(Book), {
+    ssr: false
+})
