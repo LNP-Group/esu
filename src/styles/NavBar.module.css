@@ -1,0 +1,161 @@
+.navbar {
+    background-color: #0000ff;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    position: relative;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.hamburgerSpan {
+    width: 1.5rem;
+    height: 0.2rem;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+    height: inherit;
+    position: absolute;
+    padding: 0em .5em 0em .5em;
+    top: 0;
+    left: 3rem;
+    background-color: #0000ff;
+    transform: scaleX(0%);
+    transform-origin: left;
+    transition: all 0.3s ease-in-out;
+}
+
+.active {
+    transform: scaleX(100%);
+    z-index: 100;
+}
+
+.navbarList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+}
+
+.navbarListItem {
+    margin: 1rem 0rem;
+}
+
+.navbarLink {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 3.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbarLink:hover {
+    color: #0000ff;
+    background-color: #ffffff;
+}
+                    
+.logo {
+    width: 5rem;
+}
+
+.activeLink {
+    color: #0000ff;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+.search {
+    font-size: 1.25rem;
+    background-color: #000;
+    color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+}
+
+.search:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.search:focus {
+    outline: transparent;
+    background-color: #fff;
+    color: #000;
+}
+
+.searchActive {
+    background-color: #fff;
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        transition: all 0.3s ease-in-out;
+        left: 0rem;
+        top: 2.9rem;
+        transform: scaleY(0%);
+        transform-origin: top;
+        height: calc(100vh - 2.9rem);
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .navbarList {
+        background-color: #0000ff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navBarListItem {
+        margin: 0 0rem;
+        margin: .1rem;
+    }
+    .navBarLink {
+        padding: 0.5rem 0.5rem;
+        border-radius: 3.5rem;
+        transition: all 0.3s ease-in-out;
+        font-size: 1.25rem;
+    }
+
+    .activeLink {
+        color: #0000ff;
+        background-color: #ffffff;
+    }
+
+    .active {
+        transform: scaleY(100%);
+    }
+}

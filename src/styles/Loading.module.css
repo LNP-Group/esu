@@ -1,0 +1,24 @@
+.loading {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0000ff;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.loading svg {
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+}
+
+.loadingItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}

@@ -27,7 +27,7 @@ export default function Home() {
         'sv-se'
     ]
 
-    locales.forEach(locale => { 
+    locales.forEach(locale => {
         if (pathname.includes(locale)) {
             return localeString = locale
         }

@@ -1,0 +1,317 @@
+.main {
+    min-height: 100dvh;
+}
+
+.timelineContent {
+    padding: 2rem;
+    min-height: calc(100vh - 3rem);
+}
+
+.timelineHeadline {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: .75rem;
+    color: grey;
+}
+
+.timelineEras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+
+.timelineEras::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: .5rem;
+    height: 102%;
+    background: #00f;
+}
+
+.timelineEras::after {
+    content: '';
+    position: absolute;
+    top: 102%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 0px solid;
+    border-left: .75rem solid transparent;
+    border-right: .75rem solid transparent;
+    border-top: 1.5rem solid #00f;
+    width: 0px;
+    height: 0px;
+}
+
+.timelineRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+.era {
+    background: #00f;
+    color: #fff;
+    border: none;
+    outline: transparent;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.era:hover {
+    opacity: .75;
+}
+
+.era:disabled {
+    opacity: .75;
+    cursor: not-allowed;
+}
+
+
+.eraOne {
+    grid-column: 1 / 2;
+    position: relative;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.eraOne::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 95%;
+    width: 1.7rem;
+    height: 5px;
+    background: #00f;
+}
+
+.eraTwo {
+    grid-column: 2 / 2;
+    position: relative;
+    top: -5.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.eraTwo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 95%;
+    width: 1.7rem;
+    height: 5px;
+    background: #00f;
+}
+
+.eraThree {
+    grid-column: 1 / 2;
+    position: relative;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.eraThree::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 95%;
+    width: 1.5rem;
+    height: 5px;
+    background: #00f;
+}
+
+.eraFour {
+    grid-column: 2 / 2;
+    position: relative;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+
+}
+
+.eraFour::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 95%;
+    width: 1.5rem;
+    height: 5px;
+    background: #00f;
+}
+
+.eraFive {
+    grid-column: 1 / 2;
+    position: relative;
+    bottom: -1rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.eraFive::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 95%;
+    width: 1.5rem;
+    height: 5px;
+    background: #00f;
+}
+
+.eraSix {
+    grid-column: 2 / 2;
+    position: relative;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.eraSix::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 95%;
+    width: 1.5rem;
+    height: 5px;
+    background: #00f;
+}
+
+.dialog {
+    background-color: #00f;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 50%;
+}
+
+.dialog::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+.dialog::-webkit-scrollbar-track {
+    background: #00f;
+    border-radius: 10px;
+}
+  
+  /* Handle */
+.dialog::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 129);
+  border-radius: 10px;
+}
+  
+  /* Handle on hover */
+.dialog::-webkit-scrollbar-thumb:hover {
+    background: rgb(98, 98, 255);
+}
+
+.dialog::backdrop {
+    background: #000;
+    opacity: 0.5;
+}
+
+.dialogButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    outline: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 1rem;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+}
+
+.dialogButton:hover {
+    opacity: .75;
+}
+
+.icon {
+    width: 1rem;
+    height: 1rem;
+    font-weight: 700;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.eraHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.eraHeader h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.eraHeader p {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.eraHeader small {
+    font-size: .75rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.eraHeader::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+}
+
+.eraEvents {
+    display: grid;
+}
+
+.eraEvents  h3 {
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.eraEventsContent {
+    margin: 1rem 0 0 1rem;
+}
