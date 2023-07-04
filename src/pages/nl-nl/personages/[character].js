@@ -118,195 +118,195 @@ export default function Book() {
     }
 
     return(
-        <>
-            <Head>
-                <title>
-                    <NoSSR>
+        <NoSSR>
+            <>
+               <Head>
+                    <title>
                         {`${name} | ${websiteName}`}
-                    </NoSSR>
-                </title>
-                <meta name="description" content={intro} />
-                <meta property="og:name" content={`${name} | ${websiteName}`} />
-                <meta property="og:description" content={intro} />
-                <meta property="og:image" content={image} />
-                <meta property="og:image:alt" content={name} />
-                <meta property="og:url" content={`https://www.esufranchise.com/${localeString}/books/${character}`} />
-                <meta property="og:type" content="website" />
-                <meta property="og:locale" content={localeString} />
-                <meta property="og:site_name" content={websiteName} />
-                <meta property="og:image:width" content="1200" />
-                <meta property="og:image:height" content="630" />
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:name" content={`${name} | ${websiteName}`} />
-                <meta name="twitter:description" content={intro} />
-                <meta name="twitter:image" content={image} />
-                <meta name="twitter:image:alt" content={name} />
-                <meta name="twitter:site" content="@esufranchise" />
-                <meta name="twitter:creator" content="@esufranchise" />
-                <link rel="canonical" href={`https://www.esufranchise.com/${localeString}/books/${character}`} />
-            </Head>
-            <NavBar />
-            <main className={styles.main}>
-                <div className={styles.infoContainer}>
-                    <div className={styles.coverContainer}>
-                        <img src={image} alt={name} className={styles.characterImage} />
+                    </title>
+                    <meta name="description" content={intro} />
+                    <meta property="og:name" content={`${name} | ${websiteName}`} />
+                    <meta property="og:description" content={intro} />
+                    <meta property="og:image" content={image} />
+                    <meta property="og:image:alt" content={name} />
+                    <meta property="og:url" content={`https://www.esufranchise.com/${localeString}/books/${character}`} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content={localeString} />
+                    <meta property="og:site_name" content={websiteName} />
+                    <meta property="og:image:width" content="1200" />
+                    <meta property="og:image:height" content="630" />
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:name" content={`${name} | ${websiteName}`} />
+                    <meta name="twitter:description" content={intro} />
+                    <meta name="twitter:image" content={image} />
+                    <meta name="twitter:image:alt" content={name} />
+                    <meta name="twitter:site" content="@esufranchise" />
+                    <meta name="twitter:creator" content="@esufranchise" />
+                    <link rel="canonical" href={`https://www.esufranchise.com/${localeString}/books/${character}`} />
+                </Head>
+                <NavBar />
+                <main className={styles.main}>
+                    <div className={styles.infoContainer}>
+                        <div className={styles.coverContainer}>
+                            <img src={image} alt={name} className={styles.characterImage} />
+                        </div>
+                        <div className={styles.info}>
+                            <p className={styles.title}>
+                                <span className={styles.bold}>
+                                    {
+                                        localeString === 'en-us' ? dynamicPages.en.character.name :
+                                        localeString === 'ro-ro' ? dynamicPages.ro.character.name :
+                                        localeString === 'nl-nl' ? dynamicPages.nl.character.name :
+                                        localeString === 'sv-se' ? dynamicPages.sv.character.name :
+                                        dynamicPages.en.character.name
+                                    }
+                                </span>
+                                {name}
+                            </p>
+                            <p className={styles.author}>
+                                <span className={styles.bold}>
+                                    {
+                                        localeString === 'en-us' ? dynamicPages.en.character.alias :
+                                        localeString === 'ro-ro' ? dynamicPages.ro.character.alias :
+                                        localeString === 'nl-nl' ? dynamicPages.nl.character.alias :
+                                        localeString === 'sv-se' ? dynamicPages.sv.character.alias :
+                                        dynamicPages.en.character.alias
+                                    }
+                                </span>
+                                {alias}
+                            </p>
+                            <p className={styles.releaseDate}>
+                                <span className={styles.bold}>
+                                    {
+                                        localeString === 'en-us' ? dynamicPages.en.character.debut :
+                                        localeString === 'ro-ro' ? dynamicPages.ro.character.debut :
+                                        localeString === 'nl-nl' ? dynamicPages.nl.character.debut :
+                                        localeString === 'sv-se' ? dynamicPages.sv.character.debut :
+                                        dynamicPages.en.character.debut
+                                    }
+                                </span>
+                                {debut}
+                            </p>
+                        </div>
                     </div>
-                    <div className={styles.info}>
-                        <p className={styles.title}>
-                            <span className={styles.bold}>
-                                {
-                                    localeString === 'en-us' ? dynamicPages.en.character.name :
-                                    localeString === 'ro-ro' ? dynamicPages.ro.character.name :
-                                    localeString === 'nl-nl' ? dynamicPages.nl.character.name :
-                                    localeString === 'sv-se' ? dynamicPages.sv.character.name :
-                                    dynamicPages.en.character.name
-                                }
-                            </span>
-                            {name}
-                        </p>
-                        <p className={styles.author}>
-                            <span className={styles.bold}>
-                                {
-                                    localeString === 'en-us' ? dynamicPages.en.character.alias :
-                                    localeString === 'ro-ro' ? dynamicPages.ro.character.alias :
-                                    localeString === 'nl-nl' ? dynamicPages.nl.character.alias :
-                                    localeString === 'sv-se' ? dynamicPages.sv.character.alias :
-                                    dynamicPages.en.character.alias
-                                }
-                            </span>
-                            {alias}
-                        </p>
-                        <p className={styles.releaseDate}>
-                            <span className={styles.bold}>
-                                {
-                                    localeString === 'en-us' ? dynamicPages.en.character.debut :
-                                    localeString === 'ro-ro' ? dynamicPages.ro.character.debut :
-                                    localeString === 'nl-nl' ? dynamicPages.nl.character.debut :
-                                    localeString === 'sv-se' ? dynamicPages.sv.character.debut :
-                                    dynamicPages.en.character.debut
-                                }
-                            </span>
-                            {debut}
+                    <div className={styles.characterIntro} style={{['--character-glow']: `${color}`}}>
+                        <p className={styles.intro}>
+                            {intro}
                         </p>
                     </div>
-                </div>
-                <div className={styles.characterIntro} style={{['--character-glow']: `${color}`}}>
-                    <p className={styles.intro}>
-                        {intro}
-                    </p>
-                </div>
-                <h2 className={styles.sectionHeader}>
-                    {
-                        localeString === 'en-us' ? dynamicPages.en.character.allies :
-                        localeString === 'ro-ro' ? dynamicPages.ro.character.allies :
-                        localeString === 'nl-nl' ? dynamicPages.nl.character.allies :
-                        localeString === 'sv-se' ? dynamicPages.sv.character.allies :
-                        dynamicPages.en.character.allies
-                    }
-                </h2>
-                <div className={styles.section}>
-                    <ul className={styles.characterList}>
+                    <h2 className={styles.sectionHeader}>
                         {
-                            allies?.map((ally, index) => {
-                                return(
-                                    <li key={index} className={styles.characterListItem}>
-                                        {ally}
-                                    </li>
-                                )
-                            })
+                            localeString === 'en-us' ? dynamicPages.en.character.allies :
+                            localeString === 'ro-ro' ? dynamicPages.ro.character.allies :
+                            localeString === 'nl-nl' ? dynamicPages.nl.character.allies :
+                            localeString === 'sv-se' ? dynamicPages.sv.character.allies :
+                            dynamicPages.en.character.allies
                         }
-                    </ul>
-                </div>
-                <h2 className={styles.sectionHeader}>
-                    {
-                        localeString === 'en-us' ? dynamicPages.en.character.enemies :
-                        localeString === 'ro-ro' ? dynamicPages.ro.character.enemies :
-                        localeString === 'nl-nl' ? dynamicPages.nl.character.enemies :
-                        localeString === 'sv-se' ? dynamicPages.sv.character.enemies :
-                        dynamicPages.en.character.enemies
-                    }
-                </h2>
-                <div className={styles.section}>
-                    <ul className={styles.characterList}>
+                    </h2>
+                    <div className={styles.section}>
+                        <ul className={styles.characterList}>
+                            {
+                                allies?.map((ally, index) => {
+                                    return(
+                                        <li key={index} className={styles.characterListItem}>
+                                            {ally}
+                                        </li>
+                                    )
+                                })
+                            }
+                        </ul>
+                    </div>
+                    <h2 className={styles.sectionHeader}>
                         {
-                            enemies?.map((enemy, index) => {
-                                return(
-                                    <li key={index} className={styles.characterListItem}>
-                                        {enemy}
-                                    </li>
-                                )
-                            })
+                            localeString === 'en-us' ? dynamicPages.en.character.enemies :
+                            localeString === 'ro-ro' ? dynamicPages.ro.character.enemies :
+                            localeString === 'nl-nl' ? dynamicPages.nl.character.enemies :
+                            localeString === 'sv-se' ? dynamicPages.sv.character.enemies :
+                            dynamicPages.en.character.enemies
                         }
-                    </ul>
-                </div>
-                <h2 className={styles.sectionHeader}>
-                    {
-                        localeString === 'en-us' ? dynamicPages.en.character.powers :
-                        localeString === 'ro-ro' ? dynamicPages.ro.character.powers :
-                        localeString === 'nl-nl' ? dynamicPages.nl.character.powers :
-                        localeString === 'sv-se' ? dynamicPages.sv.character.powers :
-                        dynamicPages.en.character.powers
-                    }
-                </h2>
-                <div className={styles.section}>
-                    <ul className={styles.characterList}>
+                    </h2>
+                    <div className={styles.section}>
+                        <ul className={styles.characterList}>
+                            {
+                                enemies?.map((enemy, index) => {
+                                    return(
+                                        <li key={index} className={styles.characterListItem}>
+                                            {enemy}
+                                        </li>
+                                    )
+                                })
+                            }
+                        </ul>
+                    </div>
+                    <h2 className={styles.sectionHeader}>
                         {
-                            powers?.map((power, index) => {
-                                return(
-                                    <li key={index} className={styles.characterListItem}>
-                                        {power}
-                                    </li>
-                                )
-                            })
+                            localeString === 'en-us' ? dynamicPages.en.character.powers :
+                            localeString === 'ro-ro' ? dynamicPages.ro.character.powers :
+                            localeString === 'nl-nl' ? dynamicPages.nl.character.powers :
+                            localeString === 'sv-se' ? dynamicPages.sv.character.powers :
+                            dynamicPages.en.character.powers
                         }
-                    </ul>
-                </div>
-                <h2 className={styles.sectionHeader}>
-                    {
-                        localeString === 'en-us' ? dynamicPages.en.character.appearances :
-                        localeString === 'ro-ro' ? dynamicPages.ro.character.appearances :
-                        localeString === 'nl-nl' ? dynamicPages.nl.character.appearances :
-                        localeString === 'sv-se' ? dynamicPages.sv.character.appearances :
-                        dynamicPages.en.character.appearances
-                    }
-                </h2>
-                <div className={styles.section}>
-                    <ul className={styles.characterList}>
+                    </h2>
+                    <div className={styles.section}>
+                        <ul className={styles.characterList}>
+                            {
+                                powers?.map((power, index) => {
+                                    return(
+                                        <li key={index} className={styles.characterListItem}>
+                                            {power}
+                                        </li>
+                                    )
+                                })
+                            }
+                        </ul>
+                    </div>
+                    <h2 className={styles.sectionHeader}>
                         {
-                            appearances?.map((appearance, index) => {
-                                return(
-                                    <li key={index} className={styles.characterListItem}>
-                                        {appearance}
-                                    </li>
-                                )
-                            })
+                            localeString === 'en-us' ? dynamicPages.en.character.appearances :
+                            localeString === 'ro-ro' ? dynamicPages.ro.character.appearances :
+                            localeString === 'nl-nl' ? dynamicPages.nl.character.appearances :
+                            localeString === 'sv-se' ? dynamicPages.sv.character.appearances :
+                            dynamicPages.en.character.appearances
                         }
-                    </ul>
-                </div>
-                <h2 className={styles.sectionHeader}>
-                    {
-                        localeString === 'en-us' ? dynamicPages.en.character.trivia :
-                        localeString === 'ro-ro' ? dynamicPages.ro.character.trivia :
-                        localeString === 'nl-nl' ? dynamicPages.nl.character.trivia :
-                        localeString === 'sv-se' ? dynamicPages.sv.character.trivia :
-                        dynamicPages.en.character.trivia
-                    }
-                </h2>
-                <div className={styles.section}>
-                    <ul className={styles.characterList}>
+                    </h2>
+                    <div className={styles.section}>
+                        <ul className={styles.characterList}>
+                            {
+                                appearances?.map((appearance, index) => {
+                                    return(
+                                        <li key={index} className={styles.characterListItem}>
+                                            {appearance}
+                                        </li>
+                                    )
+                                })
+                            }
+                        </ul>
+                    </div>
+                    <h2 className={styles.sectionHeader}>
                         {
-                            trivia?.map((trivia, index) => {
-                                return(
-                                    <li key={index} className={styles.characterListItem}>
-                                        {trivia}
-                                    </li>
-                                )
-                            })
+                            localeString === 'en-us' ? dynamicPages.en.character.trivia :
+                            localeString === 'ro-ro' ? dynamicPages.ro.character.trivia :
+                            localeString === 'nl-nl' ? dynamicPages.nl.character.trivia :
+                            localeString === 'sv-se' ? dynamicPages.sv.character.trivia :
+                            dynamicPages.en.character.trivia
                         }
-                    </ul>
-                </div>
-            </main>
-            <Footer />
-        </>
+                    </h2>
+                    <div className={styles.section}>
+                        <ul className={styles.characterList}>
+                            {
+                                trivia?.map((trivia, index) => {
+                                    return(
+                                        <li key={index} className={styles.characterListItem}>
+                                            {trivia}
+                                        </li>
+                                    )
+                                })
+                            }
+                        </ul>
+                    </div>
+                </main>
+                <Footer />
+            </>
+        </NoSSR>
     )
 }
