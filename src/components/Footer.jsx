@@ -94,7 +94,10 @@ function Footer() {
                     footer.en.app
                 }
             </a>
-            <a target="_blank" href="https://newsletter.esufranchise.com" className={`${styles.specialLinks} ${styles.footerLink} ${styles.roLink}`}>
+            {
+                localeString === "ro-ro" ? <br /> : null
+            }
+            <a target="_blank" href="https://newsletter.esufranchise.com" className={`${styles.specialLinks} ${styles.footerLink}`}>
                 {
                     localeString === 'en-us' ? footer.en.newsletter :
                     localeString === 'ro-ro' ? footer.ro.newsletter :
