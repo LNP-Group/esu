@@ -14,18 +14,17 @@ export default function Book() {
     const character = router.query.character
 
 
-    let image
-    let name
-    let alias
-    let debut
-    let intro
-    let allies
-    let enemies
-    let powers
-    let appearances
-    let trivia
-    let color
-    let lightColor
+    let image = null
+    let name = null
+    let alias = null
+    let debut = null
+    let intro = null
+    let allies = null
+    let enemies = null
+    let powers = null
+    let appearances = null
+    let trivia = null
+    let color = null
 
     const pathname = router.pathname
 
