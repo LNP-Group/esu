@@ -57,7 +57,6 @@ function Character() {
             appearances = purpleBolt.nl.appearances
             trivia = purpleBolt.nl.trivia
             color = '#7800FF'
-            lightColor = '#B300FF'
         break;
         case 'thor':
             image = thor.nl.image
@@ -71,7 +70,6 @@ function Character() {
             appearances = thor.nl.appearances
             trivia = thor.nl.trivia
             color = '#2100F4'
-            lightColor = '#4b30ff'
         break;
         case 'madame-wilhelmina':
             image = madameWilhelmina.nl.image
@@ -85,7 +83,6 @@ function Character() {
             appearances = madameWilhelmina.nl.appearances
             trivia = madameWilhelmina.nl.trivia
             color = '#6A00A5'
-            lightColor = '#9d00ff'
         break;
         case 'doctor-hex':
             image = doctorHex.nl.image
@@ -99,7 +96,6 @@ function Character() {
             appearances = doctorHex.nl.appearances
             trivia = doctorHex.nl.trivia
             color = '#970002'
-            lightColor = '#ff0000'
         break;
         case 'the-ghost':
             image = theGhost.nl.image
@@ -113,7 +109,6 @@ function Character() {
             appearances = theGhost.nl.appearances
             trivia = theGhost.nl.trivia
             color = '#00B200'
-            lightColor = '#00ff00'
         break;
     }
 

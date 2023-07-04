@@ -57,7 +57,6 @@ function Character() {
             appearances = purpleBolt.sv.appearances
             trivia = purpleBolt.sv.trivia
             color = '#7800FF'
-            lightColor = '#B300FF'
         break;
         case 'tor':
             image = thor.sv.image
@@ -71,7 +70,6 @@ function Character() {
             appearances = thor.sv.appearances
             trivia = thor.sv.trivia
             color = '#2100F4'
-            lightColor = '#4b30ff'
         break;
         case 'madame-wilhelmina':
             image = madameWilhelmina.sv.image
@@ -85,7 +83,6 @@ function Character() {
             appearances = madameWilhelmina.sv.appearances
             trivia = madameWilhelmina.sv.trivia
             color = '#6A00A5'
-            lightColor = '#9d00ff'
         break;
         case 'doktor-hex':
             image = doctorHex.sv.image
@@ -99,7 +96,6 @@ function Character() {
             appearances = doctorHex.sv.appearances
             trivia = doctorHex.sv.trivia
             color = '#970002'
-            lightColor = '#ff0000'
         break;
         case 'spoket':
             image = theGhost.sv.image
@@ -113,7 +109,6 @@ function Character() {
             appearances = theGhost.sv.appearances
             trivia = theGhost.sv.trivia
             color = '#00B200'
-            lightColor = '#00ff00'
         break;
     }
 
