@@ -109,6 +109,7 @@ function Character() {
             appearances = theGhost.sv.appearances
             trivia = theGhost.sv.trivia
             color = '#00B200'
+
         break;
     }
 
