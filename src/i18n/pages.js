@@ -1,6 +1,6 @@
 export const home = {
     en: {
-        purpleBoltLogo: 'https://cdn.esufranchise.com/books/logos/purple-bolt.png',
+        purpleBoltLogo: 'https://cdn.esufranchise.com/website/books/logos/purple-bolt.png',
         purpleBoltLogoAlt: 'Purple Bolt',
         releaseTeaser: 'Coming in 2024',
         phaseOne: 'Phase One: The Ethereals',
@@ -32,7 +32,7 @@ export const home = {
         theGhostImgAlt: 'The Ghost'
     },
     ro: {
-        purpleBoltLogo: 'https://cdn.esufranchise.com/books/logos/purple-bolt.png',
+        purpleBoltLogo: 'https://cdn.esufranchise.com/website/books/logos/purple-bolt.png',
         purpleBoltLogoAlt: 'Fulgerul Violet',
         releaseTeaser: 'Apare în 2024',
         phaseOne: 'Faza Întâi: Etericii',
@@ -64,7 +64,7 @@ export const home = {
         theGhostImgAlt: 'Fantoma'
     },
     nl: {
-        purpleBoltLogo: 'https://cdn.esufranchise.com/books/logos/purple-bolt.png',
+        purpleBoltLogo: 'https://cdn.esufranchise.com/website/books/logos/purple-bolt.png',
         purpleBoltLogoAlt: 'Purple Bolt',
         releaseTeaser: 'Komt uit in 2024',
         phaseOne: 'Fase Een: The Ethereals',
@@ -96,7 +96,7 @@ export const home = {
         theGhostImgAlt: 'The Ghost'
     },
     sv: {
-        purpleBoltLogo: 'https://cdn.esufranchise.com/books/logos/purple-bolt.png',
+        purpleBoltLogo: 'https://cdn.esufranchise.com/website/books/logos/purple-bolt.png',
         purpleBoltLogoAlt: 'Purple Bolt',
         releaseTeaser: 'Kommer 2024',
         phaseOne: 'Fas Ett: The Ethereals',
