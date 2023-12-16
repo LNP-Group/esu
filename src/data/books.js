@@ -12,7 +12,7 @@ export const purpleBolt = {
     },
     ro: {
         title: "Fulgerul Violet",
-        cover: "https://cdn.esufranchise.com/website/books/romanian/purple-bolt.png",
+        cover: "https://cdn.esufranchise.com/website/books/purple-bolt.png",
         synopsis: "Un student de 18 ani primește superputeri în urma unui experiment făcut de tatăl său.",
         pageNumber: "AFA",
         releaseDate: "Sfârșitul lui 2023",
@@ -23,7 +23,7 @@ export const purpleBolt = {
     },
     nl: {
         title: "Purple Bolt",
-        cover: "https://cdn.esufranchise.com/website/books/english/purple-bolt.png",
+        cover: "https://cdn.esufranchise.com/website/books/purple-bolt.png",
         synopsis: "Een 18 jarige student krijgt superkrachten door een experiment uitgevoerd door zijn vader.",
         pageNumber: "N.t.b",
         releaseDate: "Eind 2023",
@@ -34,7 +34,7 @@ export const purpleBolt = {
     },
     sv: {
         title: "Purple Bolt",
-        cover: "https://cdn.esufranchise.com/website/books/english/purple-bolt.png",
+        cover: "https://cdn.esufranchise.com/website/books/purple-bolt.png",
         synopsis: "En artonårig student som får superkrafter efter en experiment utfördes av hans fader.",
         pageNumber: "S.l.t",
         releaseDate: "Sent 2023",
@@ -59,7 +59,7 @@ export const thor = {
     },
     ro: {
         title: "Thor",
-        cover: "https://cdn.esufranchise.com/website/books/romanian/thor.png",
+        cover: "https://cdn.esufranchise.com/website/books/thor.png",
         synopsis: "Thor, zeul nordic al tunetelor, trebuie să se ocupe de niște probleme de pe Pământ.",
         pageNumber: "AFA",
         releaseDate: "AFA",
@@ -70,7 +70,7 @@ export const thor = {
     },
     nl: {
         title: "Thor",
-        cover: "https://cdn.esufranchise.com/website/books/english/thor.png",
+        cover: "https://cdn.esufranchise.com/website/books/thor.png",
         synopsis: "Thor, onze Noorse God van de Donder, is ingewikkeld in wat problemen op aarde.",
         pageNumber: "N.t.b",
         releaseDate: "N.t.b",
@@ -81,7 +81,7 @@ export const thor = {
     },
     sv: {
         title: "Tor",
-        cover: "https://cdn.esufranchise.com/website/books/english/thor.png",
+        cover: "https://cdn.esufranchise.com/website/books/thor.png",
         synopsis: "Tor, vår nordiska åskgud måste ta itu med några problem på jorden.",
         pageNumber: "S.l.t",
         releaseDate: "S.l.t",
@@ -106,7 +106,7 @@ export const madameWilhelmina = {
     },
     ro: {
         title: "Madame Wilhelmina",
-        cover: "https://cdn.esufranchise.com/website/books/romanian/madame-wilhelmina.png",
+        cover: "https://cdn.esufranchise.com/website/books/madame-wilhelmina.png",
         synopsis: "O vrăjitoare trebuie să treacă peste pieirea speciei sale.",
         pageNumber: "AFA",
         releaseDate: "AFA",
@@ -117,7 +117,7 @@ export const madameWilhelmina = {
     },
     nl: {
         title: "Madame Wilhelmina",
-        cover: "https://cdn.esufranchise.com/website/books/english/madame-wilhelmina.png",
+        cover: "https://cdn.esufranchise.com/website/books/madame-wilhelmina.png",
         synopsis: "Het verhaal van de laatste overlevende heks.",
         pageNumber: "N.t.b",
         releaseDate: "N.t.b",
@@ -128,7 +128,7 @@ export const madameWilhelmina = {
     },
     sv: {
         title: "Madame Wilhelmina",
-        cover: "https://cdn.esufranchise.com/website/books/english/madame-wilhelmina.png",
+        cover: "https://cdn.esufranchise.com/website/books/madame-wilhelmina.png",
         synopsis: "En häxa måste ta itu med utrotning av hennes slag.",
         pageNumber: "S.l.t",
         releaseDate: "S.l.t",
@@ -153,7 +153,7 @@ export const doctorHex = {
     },
     ro: {
         title: "Doctor Hex",
-        cover: "https://cdn.esufranchise.com/website/books/romanian/doctor-hex.png",
+        cover: "https://cdn.esufranchise.com/website/books/doctor-hex.png",
         synopsis: "Un arheolog e blestemat cu puteri magice după ce a atins un artefact sacru.",
         pageNumber: "AFA",
         releaseDate: "AFA",
@@ -164,7 +164,7 @@ export const doctorHex = {
     },
     nl: {
         title: "Doctor Hex",
-        cover: "https://cdn.esufranchise.com/website/books/english/doctor-hex.png",
+        cover: "https://cdn.esufranchise.com/website/books/doctor-hex.png",
         synopsis: "Een archeoloog die gedoemd is door magie nadat hun een heilig artefact aanraakte.",
         pageNumber: "N.t.b",
         releaseDate: "N.t.b",
@@ -175,7 +175,7 @@ export const doctorHex = {
     },
     sv: {
         title: "Doktor Hex",
-        cover: "https://cdn.esufranchise.com/website/books/english/doctor-hex.png",
+        cover: "https://cdn.esufranchise.com/website/books/doctor-hex.png",
         synopsis: "En arkeolog blir dömd med magiska krafter efter att han röde en helig artefakt.",
         pageNumber: "S.l.t",
         releaseDate: "S.l.t",
@@ -200,7 +200,7 @@ export const theGhost = {
     },
     ro: {
         title: "Fantoma",
-        cover: "https://cdn.esufranchise.com/website/books/romanian/the-ghost.png",
+        cover: "https://cdn.esufranchise.com/website/books/the-ghost.png",
         synopsis: "Un criminal trebuie să lupte cu infractori în lumea reală, după moartea sa, ca pedeapsă pentru crimele sale de la Lucifer.",
         pageNumber: "AFA",
         releaseDate: "AFA",
@@ -211,7 +211,7 @@ export const theGhost = {
     },
     nl: {
         title: "The Ghost",
-        cover: "https://cdn.esufranchise.com/website/books/english/the-ghost.png",
+        cover: "https://cdn.esufranchise.com/website/books/the-ghost.png",
         synopsis: "Een moordenaar die van Lucifer tegen criminelen moet vechten in de sterfelijke wereld na zijn dood als straf voor zijn misdaden.",
         pageNumber: "N.t.b",
         releaseDate: "N.t.b",
@@ -222,7 +222,7 @@ export const theGhost = {
     },
     sv: {
         title: "Spöket",
-        cover: "https://cdn.esufranchise.com/website/books/english/the-ghost.png",
+        cover: "https://cdn.esufranchise.com/website/books/the-ghost.png",
         synopsis: "En mördare måste slås mot kriminella i den rikiga världen, efter hans död, som en bestraffning från Lucifer för hans brott.",
         pageNumber: "S.l.t",
         releaseDate: "S.l.t",
@@ -247,7 +247,7 @@ export const theEthereals = {
     },
     ro: {
         title: "Etericii",
-        cover: "https://cdn.esufranchise.com/website/books/romanian/the-ethereals.png",
+        cover: "https://cdn.esufranchise.com/website/books/the-ethereals.png",
         synopsis: "Eroii noștrii se unesc pentru prima dată pentru a lupta o amenințare necunoscută ce atacă Pământul.",
         pageNumber: "AFA",
         releaseDate: "AFA",
@@ -258,7 +258,7 @@ export const theEthereals = {
     },
     nl: {
         title: "The Ethereals",
-        cover: "https://cdn.esufranchise.com/website/books/english/the-ethereals.png",
+        cover: "https://cdn.esufranchise.com/website/books/the-ethereals.png",
         synopsis: "Onze helden zullen samenwerken voor de eerste keer om een onbekende dreiging tegen de aarde te bestrijden.",
         pageNumber: "N.t.b",
         releaseDate: "N.t.b",
@@ -269,7 +269,7 @@ export const theEthereals = {
     },
     sv: {
         title: "The Ethereals",
-        cover: "https://cdn.esufranchise.com/website/books/english/the-ethereals.png",
+        cover: "https://cdn.esufranchise.com/website/books/the-ethereals.png",
         synopsis: "Våra superhjältar måste jobba tillsammans för första gången för att slås mot en okänt hot som attakerar jorden.",
         pageNumber: "S.l.t",
         releaseDate: "S.l.t",
@@ -283,7 +283,7 @@ export const theEthereals = {
 export const dracula = {
     en: {
         title: "Dracula: The First Vampire",
-        cover: "https://cdn.esufranchise.com/website/books/english/dracula.png",
+        cover: "https://cdn.esufranchise.com/website/books/dracula.png",
         synopsis: "A man becomes a vampire after being cursed by witch.",
         pageNumber: "TBA",
         releaseDate: "TBA",
@@ -294,7 +294,7 @@ export const dracula = {
     },
     ro: {
         title: "Dracula: Primul vampir",
-        cover: "https://cdn.esufranchise.com/website/books/romanian/dracula.png",
+        cover: "https://cdn.esufranchise.com/website/books/dracula.png",
         synopsis: "Un om devine un vampir după ce este blestemat de o vrăjitoare.",
         pageNumber: "AFA",
         releaseDate: "AFA",
@@ -305,7 +305,7 @@ export const dracula = {
     },
     nl: {
         title: "Dracula: The First Vampire",
-        cover: "https://cdn.esufranchise.com/website/books/english/dracula.png",
+        cover: "https://cdn.esufranchise.com/website/books/dracula.png",
         synopsis: "Door de vervloeking van een heks is een man in een vampier veranderd.",
         pageNumber: "N.t.b",
         releaseDate: "N.t.b",
@@ -316,7 +316,7 @@ export const dracula = {
     },
     sv: {
         title: "Dracula: Första Vampyren",
-        cover: "https://cdn.esufranchise.com/website/books/english/dracula.png",
+        cover: "https://cdn.esufranchise.com/website/books/dracula.png",
         synopsis: "En man förvandlas till en vampyr efter att han blev förbannad av en häxa.",
         pageNumber: "S.l.t",
         releaseDate: "S.l.t",
