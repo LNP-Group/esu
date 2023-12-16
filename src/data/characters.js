@@ -1,6 +1,6 @@
 export const purpleBolt = {
     en: {
-        image: "https://cdn.esufranchise.com/app/characters/purple-bolt.png",
+        image: "https://cdn.esufranchise.com/characters/purple-bolt.png",
         name: "Jonathan Kayne",
         alias: "Purple Bolt",
         debut: "Purple Bolt",
@@ -29,7 +29,7 @@ export const purpleBolt = {
         ]
     },
     ro: {
-        image: "https://cdn.esufranchise.com/app/characters/purple-bolt.png",
+        image: "https://cdn.esufranchise.com/characters/purple-bolt.png",
         name: "Jonathan Kayne",
         alias: "Fulgerul Violet",
         debut: "Fulgerul Violet",
@@ -58,7 +58,7 @@ export const purpleBolt = {
         ]
     },
     nl: {
-        image: "https://cdn.esufranchise.com/app/characters/purple-bolt.png",
+        image: "https://cdn.esufranchise.com/characters/purple-bolt.png",
         name: "Jonathan Kayne",
         alias: "Purple Bolt",
         debut: "Purple Bolt",
@@ -87,7 +87,7 @@ export const purpleBolt = {
         ]
     },
     sv: {
-        image: "https://cdn.esufranchise.com/app/characters/purple-bolt.png",
+        image: "https://cdn.esufranchise.com/characters/purple-bolt.png",
         name: "Jonathan Kayne",
         alias: "Purple Bolt",
         debut: "Purple Bolt",
@@ -119,7 +119,7 @@ export const purpleBolt = {
 
 export const thor = {
     en: {
-        image: "https://cdn.esufranchise.com/app/characters/thor.png",
+        image: "https://cdn.esufranchise.com/characters/thor.png",
         name: "Thor",
         alias: "Thor",
         debut: "Thor",
@@ -148,7 +148,7 @@ export const thor = {
         ]
     },
     ro: {
-        image: "https://cdn.esufranchise.com/app/characters/thor.png",
+        image: "https://cdn.esufranchise.com/characters/thor.png",
         name: "Thor",
         alias: "Thor",
         debut: "Thor",
@@ -177,7 +177,7 @@ export const thor = {
         ]
     },
     nl: {
-        image: "https://cdn.esufranchise.com/app/characters/thor.png",
+        image: "https://cdn.esufranchise.com/characters/thor.png",
         name: "Thor",
         alias: "Thor",
         debut: "Thor",
@@ -206,7 +206,7 @@ export const thor = {
         ]
     },
     sv: {
-        image: "https://cdn.esufranchise.com/app/characters/thor.png",
+        image: "https://cdn.esufranchise.com/characters/thor.png",
         name: "Tor",
         alias: "Tor",
         debut: "Tor",
@@ -238,7 +238,7 @@ export const thor = {
 
 export const madameWilhelmina = {
     en: {
-        image: "https://cdn.esufranchise.com/app/characters/madame-wilhelmina.png",
+        image: "https://cdn.esufranchise.com/characters/madame-wilhelmina.png",
         name: "Sarah Allen",
         alias: "Madame Wilhelmina",
         debut: "Madame Wilhelmina",
@@ -267,7 +267,7 @@ export const madameWilhelmina = {
         ]
     },
     ro: {
-        image: "https://cdn.esufranchise.com/app/characters/madame-wilhelmina.png",
+        image: "https://cdn.esufranchise.com/characters/madame-wilhelmina.png",
         name: "Sarah Allen",
         alias: "Doamna Wilhelmina",
         debut: "Madame Wilhelmina",
@@ -296,7 +296,7 @@ export const madameWilhelmina = {
         ]
     },
     nl: {
-        image: "https://cdn.esufranchise.com/app/characters/madame-wilhelmina.png",
+        image: "https://cdn.esufranchise.com/characters/madame-wilhelmina.png",
         name: "Sarah Allen",
         alias: "Madame Wilhelmina",
         debut: "Madame Wilhelmina",
@@ -325,7 +325,7 @@ export const madameWilhelmina = {
         ]
     },
     sv: {
-        image: "https://cdn.esufranchise.com/app/characters/madame-wilhelmina.png",
+        image: "https://cdn.esufranchise.com/characters/madame-wilhelmina.png",
         name: "Sarah Allen",
         alias: "Madame Wilhelmina",
         debut: "Madame Wilhelmina",
@@ -357,7 +357,7 @@ export const madameWilhelmina = {
 
 export const doctorHex = {
     en: {
-        image: "https://cdn.esufranchise.com/app/characters/doctor-hex.png",
+        image: "https://cdn.esufranchise.com/characters/doctor-hex.png",
         name: "Arthur Williams",
         alias: "Doctor Hex",
         debut: "Doctor Hex",
@@ -386,7 +386,7 @@ export const doctorHex = {
         ]
     },
     ro: {
-        image: "https://cdn.esufranchise.com/app/characters/doctor-hex.png",
+        image: "https://cdn.esufranchise.com/characters/doctor-hex.png",
         name: "Arthur Williams",
         alias: "Doctor Hex",
         debut: "Doctor Hex",
@@ -415,7 +415,7 @@ export const doctorHex = {
         ]
     },
     nl: {
-        image: "https://cdn.esufranchise.com/app/characters/doctor-hex.png",
+        image: "https://cdn.esufranchise.com/characters/doctor-hex.png",
         name: "Arthur Williams",
         alias: "Doctor Hex",
         debut: "Doctor Hex",
@@ -444,7 +444,7 @@ export const doctorHex = {
         ]
     },
     sv: {
-        image: "https://cdn.esufranchise.com/app/characters/doctor-hex.png",
+        image: "https://cdn.esufranchise.com/characters/doctor-hex.png",
         name: "S.l.t",
         alias: "Doktor Hex",
         debut: "Doktor Hex",
@@ -476,7 +476,7 @@ export const doctorHex = {
 
 export const theGhost = {
     en: {
-        image: "https://cdn.esufranchise.com/app/characters/the-ghost.png",
+        image: "https://cdn.esufranchise.com/characters/the-ghost.png",
         name: "Tom Abner",
         alias: "The Ghost",
         debut: "The Ghost",
@@ -505,7 +505,7 @@ export const theGhost = {
         ]
     },
     ro: {
-        image: "https://cdn.esufranchise.com/app/characters/the-ghost.png",
+        image: "https://cdn.esufranchise.com/characters/the-ghost.png",
         name: "AFA",
         alias: "Fantoma",
         debut: "Fantoma",
@@ -534,7 +534,7 @@ export const theGhost = {
         ]
     },
     nl: {
-        image: "https://cdn.esufranchise.com/app/characters/the-ghost.png",
+        image: "https://cdn.esufranchise.com/characters/the-ghost.png",
         name: "Tom Abner",
         alias: "The Ghost",
         debut: "The Ghost",
@@ -563,7 +563,7 @@ export const theGhost = {
         ]
     },
     sv: {
-        image: "https://cdn.esufranchise.com/app/characters/the-ghost.png",
+        image: "https://cdn.esufranchise.com/characters/the-ghost.png",
         name: "Tom Abner",
         alias: "Spöket",
         debut: "Spöket",
