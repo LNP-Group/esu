@@ -1,7 +1,7 @@
 export const purpleBolt = {
     en: {
         title: "Purple Bolt",
-        cover: "https://cdn.esufranchise.com/app/books/purple-bolt.png",
+        cover: "https://cdn.esufranchise.com/books/purple-bolt.png",
         synopsis: "An 18-year-old student gets superpowers after an experiment conducted by his father.",
         pageNumber: "TBA",
         releaseDate: "Late 2023",
@@ -48,7 +48,7 @@ export const purpleBolt = {
 export const thor = {
     en: {
         title: "Thor",
-        cover: "https://cdn.esufranchise.com/app/books/thor.png",
+        cover: "https://cdn.esufranchise.com/books/thor.png",
         synopsis: "Thor, our Norse god of thunder has to deal with some problems that take place on Earth.",
         pageNumber: "TBA",
         releaseDate: "TBA",
@@ -95,7 +95,7 @@ export const thor = {
 export const madameWilhelmina = {
     en: {
         title: "Madame Wilhelmina",
-        cover: "https://cdn.esufranchise.com/app/books/madame-wilhelmina.png",
+        cover: "https://cdn.esufranchise.com/books/madame-wilhelmina.png",
         synopsis: "A witch has to deal with the extinction of her kind.",
         pageNumber: "TBA",
         releaseDate: "TBA",
@@ -142,7 +142,7 @@ export const madameWilhelmina = {
 export const doctorHex = {
     en: {
         title: "Doctor Hex",
-        cover: "https://cdn.esufranchise.com/app/books/doctor-hex.png",
+        cover: "https://cdn.esufranchise.com/books/doctor-hex.png",
         synopsis: "An archaeologist is doomed with magic powers after touching a sacred artifact.",
         pageNumber: "TBA",
         releaseDate: "TBA",
@@ -189,7 +189,7 @@ export const doctorHex = {
 export const theGhost = {
     en: {
         title: "The Ghost",
-        cover: "https://cdn.esufranchise.com/app/books/the-ghost.png",
+        cover: "https://cdn.esufranchise.com/books/the-ghost.png",
         synopsis: "A murderer has to fight criminals in the real world, after his death, as a punishment from Lucifer for his crimes.",
         pageNumber: "TBA",
         releaseDate: "TBA",
@@ -236,7 +236,7 @@ export const theGhost = {
 export const theEthereals = {
     en: {
         title: "The Ethereals",
-        cover: "https://cdn.esufranchise.com/app/books/the-ethereals.png",
+        cover: "https://cdn.esufranchise.com/books/the-ethereals.png",
         synopsis: "Our heroes will team-up for the first time to fight an unknown threat that attacks the Earth.",
         pageNumber: "TBA",
         releaseDate: "TBA",
