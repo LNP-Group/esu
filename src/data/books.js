@@ -142,7 +142,7 @@ export const madameWilhelmina = {
 export const doctorHex = {
     en: {
         title: "Doctor Hex",
-        cover: "https://cdn.esufranchise.com/books/doctor-hex.png",
+        cover: "https://cdn.esufranchise.com/website/books/doctor-hex.png",
         synopsis: "An archaeologist is doomed with magic powers after touching a sacred artifact.",
         pageNumber: "TBA",
         releaseDate: "TBA",
