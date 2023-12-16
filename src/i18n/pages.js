@@ -2,7 +2,7 @@ export const home = {
     en: {
         purpleBoltLogo: 'https://cdn.esufranchise.com/books/logos/purple-bolt.png',
         purpleBoltLogoAlt: 'Purple Bolt',
-        releaseTeaser: 'Coming in Late 2023',
+        releaseTeaser: 'Coming in 2024',
         phaseOne: 'Phase One: The Ethereals',
         phaseTwo: 'Phase Two: Rise of the Titans',
         purpleBoltCover: 'https://cdn.esufranchise.com/website/books/purple-bolt.png',
@@ -34,7 +34,7 @@ export const home = {
     ro: {
         purpleBoltLogo: 'https://cdn.esufranchise.com/books/logos/purple-bolt.png',
         purpleBoltLogoAlt: 'Fulgerul Violet',
-        releaseTeaser: 'Apare la Finalul Anului 2023',
+        releaseTeaser: 'Apare în 2024',
         phaseOne: 'Faza Întâi: Etericii',
         phaseTwo: 'Faza a Doua: Ascensiunea Titanilor',
         purpleBoltCover: 'https://cdn.esufranchise.com/website/books/purple-bolt.png',
@@ -66,7 +66,7 @@ export const home = {
     nl: {
         purpleBoltLogo: 'https://cdn.esufranchise.com/books/logos/purple-bolt.png',
         purpleBoltLogoAlt: 'Purple Bolt',
-        releaseTeaser: 'Komt uit in eind 2023',
+        releaseTeaser: 'Komt uit in 2024',
         phaseOne: 'Fase Een: The Ethereals',
         phaseTwo: 'Fase Twee: Rise of the Titans',
         purpleBoltCover: 'https://cdn.esufranchise.com/website/books/purple-bolt.png',
@@ -98,7 +98,7 @@ export const home = {
     sv: {
         purpleBoltLogo: 'https://cdn.esufranchise.com/books/logos/purple-bolt.png',
         purpleBoltLogoAlt: 'Purple Bolt',
-        releaseTeaser: 'Kommer sent 2023',
+        releaseTeaser: 'Kommer 2024',
         phaseOne: 'Fas Ett: The Ethereals',
         phaseTwo: 'Fas Två: Rise of the Titans',
         purpleBoltCover: 'https://cdn.esufranchise.com/website/books/purple-bolt.png',
