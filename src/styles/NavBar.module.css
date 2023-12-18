@@ -91,7 +91,6 @@
 }
 
 .search {
-    font-size: 1.25rem;
     background-color: #000;
     color: #fff;
     width: 2.5rem;
@@ -100,6 +99,12 @@
     display: grid;
     place-items: center;
     text-decoration: none;
+}
+
+.search img {
+    width: 1.5rem;
+    height: 1.5rem;
+    filter: grayscale(100%) invert(100%);
 }
 
 .search:hover {
@@ -113,9 +118,8 @@
     color: #000;
 }
 
-.searchActive {
-    background-color: #fff;
-    color: #000;
+.search:hover img, .search:focus img {
+    filter: grayscale(0%) invert(0%);
 }
 
 @media screen and (max-width: 768px) {
