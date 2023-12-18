@@ -90,7 +90,7 @@
     font-weight: bold;
 }
 
-.search {
+.lnpBooks {
     background-color: #000;
     color: #fff;
     width: 2.5rem;
@@ -101,24 +101,24 @@
     text-decoration: none;
 }
 
-.search img {
+.lnpBooks img {
     width: 1.5rem;
     height: 1.5rem;
     filter: grayscale(100%) invert(100%);
 }
 
-.search:hover {
+.lnpBooks:hover {
     background-color: #fff;
     color: #000;
 }
 
-.search:focus {
+.lnpBooks:focus {
     outline: transparent;
     background-color: #fff;
     color: #000;
 }
 
-.search:hover img, .search:focus img {
+.lnpBooks:hover img, .lnpBooks:focus img {
     filter: grayscale(0%) invert(0%);
 }
 

@@ -166,7 +166,7 @@ function NavBar() {
                     <img src="https://cdn.esufranchise.com/website/logo.svg" alt="ESU Logo" />
                 </Link>
             </div>
-            <div className={styles.search}>
+            <div className={styles.lnpBooks}>
                 <Link href={"https://books.lnp-group.com"}>
                     <img src={"https://books.lnp-group.com/favicon.svg"} alt="LNP Books" />
                 </Link>
