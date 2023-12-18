@@ -12,6 +12,7 @@ export default function Document() {
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
         <script src="https://kit.fontawesome.com/a81ac619a8.js" crossorigin="anonymous" defer />
         <link rel="stylesheet" href="https://use.typekit.net/wjz7ipg.css" />
+        <script async src="/scripts/ml.js"></script>
       </Head>
       <body>
         <Main />
