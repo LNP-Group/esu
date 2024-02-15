@@ -9,6 +9,7 @@ import Footer from '@/components/Footer'
 import styles from '@/styles/Books.module.css'
 import { bookPaths } from '@/i18n/dynamicPagePaths'
 import { home } from '@/i18n/pages'
+import Image from 'next/image'
 
 export default function Books() {
 
@@ -176,145 +177,174 @@ export default function Books() {
                         }
                     </h2>
                     <div className={styles.bookList}>
-                        <Link href={
-                            localeString === 'en-us' ? bookPaths.en.purpleBolt :
-                            localeString === 'ro-ro' ? bookPaths.ro.purpleBolt :
-                            localeString === 'nl-nl' ? bookPaths.nl.purpleBolt :
-                            localeString === 'sv-se' ? bookPaths.sv.purpleBolt :
-                            bookPaths.en.purpleBolt
-                        } className={styles.tile}>
-                        <   img src={
-                                localeString === 'en-us' ? home.en.purpleBoltCover :
-                                localeString === 'ro-ro' ? home.ro.purpleBoltCover :
-                                localeString === 'nl-nl' ? home.nl.purpleBoltCover :
-                                localeString === 'sv-se' ? home.sv.purpleBoltCover :
-                                home.en.purpleBoltCover
-                        } alt={
-                                localeString === 'en-us' ? home.en.purpleBoltCoverAlt :
-                                localeString === 'ro-ro' ? home.ro.purpleBoltCoverAlt :
-                                localeString === 'nl-nl' ? home.nl.purpleBoltCoverAlt :
-                                localeString === 'sv-se' ? home.sv.purpleBoltCoverAlt :
-                                home.en.purpleBoltCoverAlt
-                        } className={styles.tileImg} />
-                        </Link>
-                        <Link href={
-                            localeString === 'en-us' ? bookPaths.en.thor :
-                            localeString === 'ro-ro' ? bookPaths.ro.thor :
-                            localeString === 'nl-nl' ? bookPaths.nl.thor :
-                            localeString === 'sv-se' ? bookPaths.sv.thor :
-                            bookPaths.en.thor
-                        } className={styles.tile}>
-                            <img src={
+                    <Link href={
+                        localeString === 'en-us' ? bookPaths.en.purpleBolt :
+                        localeString === 'ro-ro' ? bookPaths.ro.purpleBolt :
+                        localeString === 'nl-nl' ? bookPaths.nl.purpleBolt :
+                        localeString === 'sv-se' ? bookPaths.sv.purpleBolt :
+                        bookPaths.en.purpleBolt
+                    } className={styles.tile}>
+                    <Image
+                        fill
+                        src={
+                            localeString === 'en-us' ? home.en.purpleBoltCover :
+                            localeString === 'ro-ro' ? home.ro.purpleBoltCover :
+                            localeString === 'nl-nl' ? home.nl.purpleBoltCover :
+                            localeString === 'sv-se' ? home.sv.purpleBoltCover :
+                            home.en.purpleBoltCover
+                        } 
+                        alt={
+                            localeString === 'en-us' ? home.en.purpleBoltCoverAlt :
+                            localeString === 'ro-ro' ? home.ro.purpleBoltCoverAlt :
+                            localeString === 'nl-nl' ? home.nl.purpleBoltCoverAlt :
+                            localeString === 'sv-se' ? home.sv.purpleBoltCoverAlt :
+                            home.en.purpleBoltCoverAlt
+                        } 
+                        className={styles.tileImg} 
+                    />
+                    </Link>
+                    <Link href={
+                        localeString === 'en-us' ? bookPaths.en.thor :
+                        localeString === 'ro-ro' ? bookPaths.ro.thor :
+                        localeString === 'nl-nl' ? bookPaths.nl.thor :
+                        localeString === 'sv-se' ? bookPaths.sv.thor :
+                        bookPaths.en.thor
+                    } className={styles.tile}>
+                        <Image
+                            
+                            fill
+                            src={
                                 localeString === 'en-us' ? home.en.thorCover :
                                 localeString === 'ro-ro' ? home.ro.thorCover :
                                 localeString === 'nl-nl' ? home.nl.thorCover :
                                 localeString === 'sv-se' ? home.sv.thorCover :
                                 home.en.thorCover
-                            } alt={
+                            } 
+                            alt={
                                 localeString === 'en-us' ? home.en.thorCoverAlt :
                                 localeString === 'ro-ro' ? home.ro.thorCoverAlt :
                                 localeString === 'nl-nl' ? home.nl.thorCoverAlt :
                                 localeString === 'sv-se' ? home.sv.thorCoverAlt :
                                 home.en.thorCoverAlt
-                            } className={styles.tileImg} />
-                        </Link>
-                        <Link href={
-                            localeString === 'en-us' ? bookPaths.en.madameWilhelmina :
-                            localeString === 'ro-ro' ? bookPaths.ro.madameWilhelmina :
-                            localeString === 'nl-nl' ? bookPaths.nl.madameWilhelmina :
-                            localeString === 'sv-se' ? bookPaths.sv.madameWilhelmina :
-                            bookPaths.en.madameWilhelmina
-                        } className={styles.tile}>
-                            <img src={
+                            }
+                            className={styles.tileImg}
+                        />
+                    </Link>
+                    <Link href={
+                        localeString === 'en-us' ? bookPaths.en.madameWilhelmina :
+                        localeString === 'ro-ro' ? bookPaths.ro.madameWilhelmina :
+                        localeString === 'nl-nl' ? bookPaths.nl.madameWilhelmina :
+                        localeString === 'sv-se' ? bookPaths.sv.madameWilhelmina :
+                        bookPaths.en.madameWilhelmina
+                    } className={styles.tile}>
+                        <Image
+                            fill
+                            src={
                                 localeString === 'en-us' ? home.en.madameWilhelminaCover :
                                 localeString === 'ro-ro' ? home.ro.madameWilhelminaCover :
                                 localeString === 'nl-nl' ? home.nl.madameWilhelminaCover :
                                 localeString === 'sv-se' ? home.sv.madameWilhelminaCover :
                                 home.en.madameWilhelminaCover
-                            } alt={
+                            }
+                            alt={
                                 localeString === 'en-us' ? home.en.madameWilhelminaCoverAlt :
                                 localeString === 'ro-ro' ? home.ro.madameWilhelminaCoverAlt :
                                 localeString === 'nl-nl' ? home.nl.madameWilhelminaCoverAlt :
                                 localeString === 'sv-se' ? home.sv.madameWilhelminaCoverAlt :
                                 home.en.madameWilhelminaCoverAlt
-                            } className={styles.tileImg} />
-                        </Link>
-                        <Link href={
-                            localeString === 'en-us' ? bookPaths.en.doctorHex :
-                            localeString === 'ro-ro' ? bookPaths.ro.doctorHex :
-                            localeString === 'nl-nl' ? bookPaths.nl.doctorHex :
-                            localeString === 'sv-se' ? bookPaths.sv.doctorHex :
-                            bookPaths.en.doctorHex
-                        } className={styles.tile}>
-                            <img src={
+                            }
+                            className={styles.tileImg}
+                        />
+                    </Link>
+                    <Link href={
+                        localeString === 'en-us' ? bookPaths.en.doctorHex :
+                        localeString === 'ro-ro' ? bookPaths.ro.doctorHex :
+                        localeString === 'nl-nl' ? bookPaths.nl.doctorHex :
+                        localeString === 'sv-se' ? bookPaths.sv.doctorHex :
+                        bookPaths.en.doctorHex
+                    } className={styles.tile}>
+                        <Image
+                            fill
+                            src={
                                 localeString === 'en-us' ? home.en.doctorHexCover :
                                 localeString === 'ro-ro' ? home.ro.doctorHexCover :
                                 localeString === 'nl-nl' ? home.nl.doctorHexCover :
                                 localeString === 'sv-se' ? home.sv.doctorHexCover :
                                 home.en.doctorHexCover
-                            } alt={
+                            }
+                            alt={
                                 localeString === 'en-us' ? home.en.doctorHexCoverAlt :
                                 localeString === 'ro-ro' ? home.ro.doctorHexCoverAlt :
                                 localeString === 'nl-nl' ? home.nl.doctorHexCoverAlt :
                                 localeString === 'sv-se' ? home.sv.doctorHexCoverAlt :
                                 home.en.doctorHexCoverAlt
-                            } className={styles.tileImg} />
-                        </Link>
-                        <Link href={
-                            localeString === 'en-us' ? bookPaths.en.theGhost :
-                            localeString === 'ro-ro' ? bookPaths.ro.theGhost :
-                            localeString === 'nl-nl' ? bookPaths.nl.theGhost :
-                            localeString === 'sv-se' ? bookPaths.sv.theGhost :
-                            bookPaths.en.theGhost
-                        } className={styles.tile}>
-                            <img src={
+                            }
+                        className={styles.tileImg}
+                        />
+                    </Link>
+                    <Link href={
+                        localeString === 'en-us' ? bookPaths.en.theGhost :
+                        localeString === 'ro-ro' ? bookPaths.ro.theGhost :
+                        localeString === 'nl-nl' ? bookPaths.nl.theGhost :
+                        localeString === 'sv-se' ? bookPaths.sv.theGhost :
+                        bookPaths.en.theGhost
+                    } className={styles.tile}>
+                        <Image 
+                            fill
+                            src={
                                 localeString === 'en-us' ? home.en.theGhostCover :
                                 localeString === 'ro-ro' ? home.ro.theGhostCover :
                                 localeString === 'nl-nl' ? home.nl.theGhostCover :
                                 localeString === 'sv-se' ? home.sv.theGhostCover :
                                 home.en.theGhostCover
-                            } alt={
+                            } 
+                            alt={
                                 localeString === 'en-us' ? home.en.theGhostCoverAlt :
                                 localeString === 'ro-ro' ? home.ro.theGhostCoverAlt :
                                 localeString === 'nl-nl' ? home.nl.theGhostCoverAlt :
                                 localeString === 'sv-se' ? home.sv.theGhostCoverAlt :
                                 home.en.theGhostCoverAlt
-                            } className={styles.tileImg} />
-                        </Link>
-                        <Link href={
-                            localeString === 'en-us' ? bookPaths.en.theEthereals :
-                            localeString === 'ro-ro' ? bookPaths.ro.theEthereals :
-                            localeString === 'nl-nl' ? bookPaths.nl.theEthereals :
-                            localeString === 'sv-se' ? bookPaths.sv.theEthereals :
-                            bookPaths.en.theEthereals
-                        } className={styles.tile}>
-                            <img src={
+                            } 
+                            className={styles.tileImg} 
+                        />
+                    </Link>
+                    <Link href={
+                        localeString === 'en-us' ? bookPaths.en.theEthereals :
+                        localeString === 'ro-ro' ? bookPaths.ro.theEthereals :
+                        localeString === 'nl-nl' ? bookPaths.nl.theEthereals :
+                        localeString === 'sv-se' ? bookPaths.sv.theEthereals :
+                        bookPaths.en.theEthereals
+                    } className={styles.tile}>
+                        <Image 
+                            fill
+                            src={
                                 localeString === 'en-us' ? home.en.theEtherealsCover :
                                 localeString === 'ro-ro' ? home.ro.theEtherealsCover :
                                 localeString === 'nl-nl' ? home.nl.theEtherealsCover :
                                 localeString === 'sv-se' ? home.sv.theEtherealsCover :
                                 home.en.theEtherealsCover
-                            } alt={
+                            } 
+                            alt={
                                 localeString === 'en-us' ? home.en.theEtherealsCoverAlt :
                                 localeString === 'ro-ro' ? home.ro.theEtherealsCoverAlt :
                                 localeString === 'nl-nl' ? home.nl.theEtherealsCoverAlt :
                                 localeString === 'sv-se' ? home.sv.theEtherealsCoverAlt :
                                 home.en.theEtherealsCoverAlt
-                            } className={styles.tileImg} />
-                        </Link>
-                    </div>
-                </section>
-                <section className="phase-two">
-                    <h2 className={styles.sectionHeader}>
-                        {
-                            localeString === 'en-us' ? books.en.phaseTwo :
-                            localeString === 'ro-ro' ? books.ro.phaseTwo :
-                            localeString === 'nl-nl' ? books.nl.phaseTwo :
-                            localeString === 'sv-se' ? books.sv.phaseTwo :
-                            books.en.phaseTwo
-                        }
-                    </h2>
-                    <div className={`${styles.bookList} ${styles.phaseTwoList}`}>
+                            } 
+                            className={styles.tileImg}
+                        />
+                    </Link>
+                </div>
+                <h2 className={styles.sectionHeader}>
+                    {
+                        localeString === 'en-us' ? home.en.phaseTwo :
+                        localeString === 'ro-ro' ? home.ro.phaseTwo :
+                        localeString === 'nl-nl' ? home.nl.phaseTwo :
+                        localeString === 'sv-se' ? home.sv.phaseTwo :
+                        home.en.phaseTwo
+                    }
+                </h2>
+                <div className={`${styles.bookList} ${styles.phaseTwoList}`}>
                     <Link href={
                         localeString === 'en-us' ? bookPaths.en.dracula :
                         localeString === 'ro-ro' ? bookPaths.ro.dracula :
@@ -322,19 +352,24 @@ export default function Books() {
                         localeString === 'sv-se' ? bookPaths.sv.dracula :
                         bookPaths.en.dracula
                     } className={styles.tile}>
-                        <img src={
-                            localeString === 'en-us' ? home.en.draculaCover :
-                            localeString === 'ro-ro' ? home.ro.draculaCover :
-                            localeString === 'nl-nl' ? home.nl.draculaCover :
-                            localeString === 'sv-se' ? home.sv.draculaCover :
-                            home.en.draculaCover
-                        } alt={
-                            localeString === 'en-us' ? home.en.draculaCoverAlt :
-                            localeString === 'ro-ro' ? home.ro.draculaCoverAlt :
-                            localeString === 'nl-nl' ? home.nl.draculaCoverAlt :
-                            localeString === 'sv-se' ? home.sv.draculaCoverAlt :
-                            home.en.draculaCoverAlt
-                        } className={styles.tileImg} />
+                        <Image
+                            fill
+                            src={
+                                localeString === 'en-us' ? home.en.draculaCover :
+                                localeString === 'ro-ro' ? home.ro.draculaCover :
+                                localeString === 'nl-nl' ? home.nl.draculaCover :
+                                localeString === 'sv-se' ? home.sv.draculaCover :
+                                home.en.draculaCover
+                            } 
+                            alt={
+                                localeString === 'en-us' ? home.en.draculaCoverAlt :
+                                localeString === 'ro-ro' ? home.ro.draculaCoverAlt :
+                                localeString === 'nl-nl' ? home.nl.draculaCoverAlt :
+                                localeString === 'sv-se' ? home.sv.draculaCoverAlt :
+                                home.en.draculaCoverAlt
+                            } 
+                            className={styles.tileImg} 
+                        />
                     </Link>
                     <div className={styles.tile}></div>
                     <div className={styles.tile}></div>

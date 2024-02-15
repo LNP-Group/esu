@@ -9,6 +9,7 @@ import { home } from '@/i18n/pages'
 import Footer from '@/components/Footer'
 import { bookPaths, characterPaths } from '@/i18n/dynamicPagePaths'
 import styles from '@/styles/Characters.module.css'
+import Image from 'next/image'
 
 export default function Characters() {
 
@@ -178,112 +179,137 @@ export default function Characters() {
                     }
                 </h2>
                 <div className={styles.characterList}>
-                    <Link href={
-                        localeString === 'en-us' ? characterPaths.en.purpleBolt :
-                        localeString === 'ro-ro' ? characterPaths.ro.purpleBolt :
-                        localeString === 'nl-nl' ? characterPaths.nl.purpleBolt :
-                        localeString === 'sv-se' ? characterPaths.sv.purpleBolt :
-                        characterPaths.en.purpleBolt
-                    } className={styles.characterTile}>
-                        <img src={
+                <Link href={
+                    localeString === 'en-us' ? characterPaths.en.purpleBolt :
+                    localeString === 'ro-ro' ? characterPaths.ro.purpleBolt :
+                    localeString === 'nl-nl' ? characterPaths.nl.purpleBolt :
+                    localeString === 'sv-se' ? characterPaths.sv.purpleBolt :
+                    characterPaths.en.purpleBolt
+                } className={styles.characterTile}>
+                    <Image
+                        fill
+                        src={
                             localeString === 'en-us' ? home.en.purpleBoltImg :
                             localeString === 'ro-ro' ? home.ro.purpleBoltImg :
                             localeString === 'nl-nl' ? home.nl.purpleBoltImg :
                             localeString === 'sv-se' ? home.sv.purpleBoltImg :
                             home.en.purpleBoltImg
-                        } alt={
+                        } 
+                        alt={
                             localeString === 'en-us' ? home.en.purpleBoltImgAlt :
                             localeString === 'ro-ro' ? home.ro.purpleBoltImgAlt :
                             localeString === 'nl-nl' ? home.nl.purpleBoltImgAlt :
                             localeString === 'sv-se' ? home.sv.purpleBoltImgAlt :
                             home.en.purpleBoltImgAlt
-                        } className={styles.characterTileImg} />
-                    </Link>
-                    <Link href={
-                        localeString === 'en-us' ? characterPaths.en.thor :
-                        localeString === 'ro-ro' ? characterPaths.ro.thor :
-                        localeString === 'nl-nl' ? characterPaths.nl.thor :
-                        localeString === 'sv-se' ? characterPaths.sv.thor :
-                        characterPaths.en.thor
-                    } className={styles.characterTile}>
-                        <img src={
+                        } 
+                        className={styles.characterTileImg} 
+                    />
+                </Link>
+                <Link href={
+                    localeString === 'en-us' ? characterPaths.en.thor :
+                    localeString === 'ro-ro' ? characterPaths.ro.thor :
+                    localeString === 'nl-nl' ? characterPaths.nl.thor :
+                    localeString === 'sv-se' ? characterPaths.sv.thor :
+                    characterPaths.en.thor
+                } className={styles.characterTile}>
+                    <Image 
+                        fill
+                        src={
                             localeString === 'en-us' ? home.en.thorImg :
                             localeString === 'ro-ro' ? home.ro.thorImg :
                             localeString === 'nl-nl' ? home.nl.thorImg :
                             localeString === 'sv-se' ? home.sv.thorImg :
                             home.en.thorImg
-                        } alt={
+                        } 
+                        alt={
                             localeString === 'en-us' ? home.en.thorImgAlt :
                             localeString === 'ro-ro' ? home.ro.thorImgAlt :
                             localeString === 'nl-nl' ? home.nl.thorImgAlt :
                             localeString === 'sv-se' ? home.sv.thorImgAlt :
                             home.en.thorImgAlt
-                        } className={styles.characterTileImg} />
-                    </Link>
-                    <Link href={
-                        localeString === 'en-us' ? characterPaths.en.madameWilhelmina :
-                        localeString === 'ro-ro' ? characterPaths.ro.madameWilhelmina :
-                        localeString === 'nl-nl' ? characterPaths.nl.madameWilhelmina :
-                        localeString === 'sv-se' ? characterPaths.sv.madameWilhelmina :
-                        characterPaths.en.madameWilhelmina
-                    } className={styles.characterTile}>
-                        <img src={
+                        } 
+                        className={styles.characterTileImg} 
+                    />
+                </Link>
+                <Link href={
+                    localeString === 'en-us' ? characterPaths.en.madameWilhelmina :
+                    localeString === 'ro-ro' ? characterPaths.ro.madameWilhelmina :
+                    localeString === 'nl-nl' ? characterPaths.nl.madameWilhelmina :
+                    localeString === 'sv-se' ? characterPaths.sv.madameWilhelmina :
+                    characterPaths.en.madameWilhelmina
+                } className={styles.characterTile}>
+                    <Image 
+                        fill
+                        src={
                             localeString === 'en-us' ? home.en.madameWilhelminaImg :
                             localeString === 'ro-ro' ? home.ro.madameWilhelminaImg :
                             localeString === 'nl-nl' ? home.nl.madameWilhelminaImg :
                             localeString === 'sv-se' ? home.sv.madameWilhelminaImg :
                             home.en.madameWilhelminaImg
-                        } alt={
+                        } 
+                        alt={
                             localeString === 'en-us' ? home.en.madameWilhelminaImgAlt :
                             localeString === 'ro-ro' ? home.ro.madameWilhelminaImgAlt :
                             localeString === 'nl-nl' ? home.nl.madameWilhelminaImgAlt :
                             localeString === 'sv-se' ? home.sv.madameWilhelminaImgAlt :
                             home.en.madameWilhelminaImgAlt
-                        } className={styles.characterTileImg} />
-                    </Link>
-                    <Link href={
-                        localeString === 'en-us' ? characterPaths.en.doctorHex :
-                        localeString === 'ro-ro' ? characterPaths.ro.doctorHex :
-                        localeString === 'nl-nl' ? characterPaths.nl.doctorHex :
-                        localeString === 'sv-se' ? characterPaths.sv.doctorHex :
-                        characterPaths.en.doctorHex
-                    } className={styles.characterTile}>
-                        <img src={
+                        } 
+                        className={styles.characterTileImg} 
+                    />
+                </Link>
+                <Link href={
+                    localeString === 'en-us' ? characterPaths.en.doctorHex :
+                    localeString === 'ro-ro' ? characterPaths.ro.doctorHex :
+                    localeString === 'nl-nl' ? characterPaths.nl.doctorHex :
+                    localeString === 'sv-se' ? characterPaths.sv.doctorHex :
+                    characterPaths.en.doctorHex
+                } className={styles.characterTile}>
+                    <Image 
+                        fill
+                        src={
                             localeString === 'en-us' ? home.en.doctorHexImg :
                             localeString === 'ro-ro' ? home.ro.doctorHexImg :
                             localeString === 'nl-nl' ? home.nl.doctorHexImg :
                             localeString === 'sv-se' ? home.sv.doctorHexImg :
                             home.en.doctorHexImg
-                        } alt={
+                        } 
+                        alt={
                             localeString === 'en-us' ? home.en.doctorHexImgAlt :
                             localeString === 'ro-ro' ? home.ro.doctorHexImgAlt :
                             localeString === 'nl-nl' ? home.nl.doctorHexImgAlt :
                             localeString === 'sv-se' ? home.sv.doctorHexImgAlt :
                             home.en.doctorHexImgAlt
-                        } className={styles.characterTileImg} />
-                    </Link>
-                    <Link href={
-                        localeString === 'en-us' ? characterPaths.en.theGhost :
-                        localeString === 'ro-ro' ? characterPaths.ro.theGhost :
-                        localeString === 'nl-nl' ? characterPaths.nl.theGhost :
-                        localeString === 'sv-se' ? characterPaths.sv.theGhost :
-                        characterPaths.en.theGhost
-                    } className={styles.characterTile}>
-                        <img src={
+                        } 
+                        className={styles.characterTileImg} 
+                    />
+                </Link>
+                <Link href={
+                    localeString === 'en-us' ? characterPaths.en.theGhost :
+                    localeString === 'ro-ro' ? characterPaths.ro.theGhost :
+                    localeString === 'nl-nl' ? characterPaths.nl.theGhost :
+                    localeString === 'sv-se' ? characterPaths.sv.theGhost :
+                    characterPaths.en.theGhost
+                } className={styles.characterTile}>
+                    <Image 
+                        fill
+                        src={
                             localeString === 'en-us' ? home.en.theGhostImg :
                             localeString === 'ro-ro' ? home.ro.theGhostImg :
                             localeString === 'nl-nl' ? home.nl.theGhostImg :
                             localeString === 'sv-se' ? home.sv.theGhostImg :
                             home.en.theGhostImg
-                        } alt={
+                        } 
+                        alt={
                             localeString === 'en-us' ? home.en.theGhostImgAlt :
                             localeString === 'ro-ro' ? home.ro.theGhostImgAlt :
                             localeString === 'nl-nl' ? home.nl.theGhostImgAlt :
                             localeString === 'sv-se' ? home.sv.theGhostImgAlt :
                             home.en.theGhostImgAlt
-                        } className={styles.characterTileImg} />
-                    </Link>
-                </div>
+                        } 
+                        className={styles.characterTileImg} 
+                    />
+                </Link>
+            </div>
             </main>
             <Footer />
 

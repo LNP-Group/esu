@@ -3,6 +3,7 @@ import Link from 'next/link'
 import styles from '@/styles/NavBar.module.css'
 import { useRouter } from 'next/router'
 import { pageLinks, pageNames } from '@/i18n/pageMetadata'
+import Image from 'next/image'
 
 function NavBar() {
 
@@ -163,7 +164,12 @@ function NavBar() {
                     localeString === 'sv-se' ? pageLinks.sv.home :
                     '/'
                 }>
-                    <img src="https://cdn.esufranchise.com/website/logo.svg" alt="ESU Logo" />
+                    <Image
+                        width={100}
+                        height={100}
+                        src="https://cdn.esufranchise.com/website/logo.svg"
+                        alt="ESU Logo"
+                    />
                 </Link>
             </div>
             <div className={styles.lnpBooks}>

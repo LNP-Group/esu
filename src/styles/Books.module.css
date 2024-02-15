@@ -22,7 +22,9 @@
 
 .tile {
     min-width: 220px;
+    min-height: 312.13px;
     flex-grow: 1;
+    position: relative;
 }
 
 .tileImg {

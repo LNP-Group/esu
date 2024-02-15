@@ -47,7 +47,9 @@
 
 .bookLogo {
   width: 20rem;
+  height: 7.6rem;
   margin-bottom: 0.5rem;
+  position: relative;
 }
 
 .headerText {
@@ -117,11 +119,12 @@
 
 .tile {
   min-width: 220px;
+  min-height: 312.13px;
   flex-grow: 1;
+  position: relative;
 }
 
 .tileImg {
-  width: 100%;
   border-radius: 10%;
 }
 
@@ -156,12 +159,13 @@
 }
 
 .characterTile {
-  min-width: 220px;
+  min-width: 270px;
+  min-height: 270px;
   flex-grow: 1;
+  position: relative;
 }
 
 .characterTileImg {
-  width: 100%;
   border-radius: 100%;
 }
 
@@ -190,6 +194,7 @@
 
   .bookLogo {
     width: 10rem;
+    height: 3.8rem;
     margin-bottom: 0.25rem;
   }
 
