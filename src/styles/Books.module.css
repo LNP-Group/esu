@@ -66,3 +66,12 @@
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
 }
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+
+    .tile {
+      min-width: 220px;
+      min-height: 312.13px;
+    }
+  
+}

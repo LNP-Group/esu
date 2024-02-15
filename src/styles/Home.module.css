@@ -209,6 +209,20 @@
 
 }
 
+@media screen and (min-width: 400px) and (max-width: 768px) {
+
+  .tile {
+    min-width: 220px;
+    min-height: 312.13px;
+  }
+
+  .characterTile {
+    min-width: 270px;
+    min-height: 270px;
+  }
+
+}
+
 .phaseTwoList {
   overflow: hidden;
 }
