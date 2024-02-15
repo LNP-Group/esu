@@ -40,7 +40,7 @@ function NavBar() {
 
   return (
     <div className={styles.navbar}>
-            <button aria-label="Navigation Toggle" role="navigation" className={styles.button} onClick={() => {
+            <button aria-label="Navigation Toggle" role="button" className={styles.button} onClick={() => {
                     document.getElementById('menu').classList.toggle(`${styles.active}`)
                 }}>
                 <div className={styles.hamburger} type="button">
