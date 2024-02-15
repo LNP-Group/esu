@@ -93,3 +93,9 @@ border-radius: 10px;
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(98, 98, 255);
 }
+
+.hide-accessibly {
+  position: absolute !important;
+  opacity: 0;
+  pointer-events: none;
+}

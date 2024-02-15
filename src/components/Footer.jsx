@@ -58,6 +58,7 @@ function Footer() {
         }</p>
         </div>
         <div className="special-links">
+            <label className="hide-accessibly" htmlFor="language">Language Picker</label>
             <select name="language" id="language" className={styles.select} defaultValue={langaugePickerDefaultValue} onChange={() => {
                 window.location.href = document.getElementById("language").value
             }}>

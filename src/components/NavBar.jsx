@@ -40,7 +40,7 @@ function NavBar() {
 
   return (
     <div className={styles.navbar}>
-            <button className={styles.button} onClick={() => {
+            <button aria-label="Navigation Toggle" role="navigation" className={styles.button} onClick={() => {
                     document.getElementById('menu').classList.toggle(`${styles.active}`)
                 }}>
                 <div className={styles.hamburger} type="button">
@@ -61,7 +61,7 @@ function NavBar() {
                                 '/'
                             }
                             className={styles.navbarLink}
-                            id="link"
+                            id="home"
                         >
                             <span>
                                 {
@@ -84,7 +84,7 @@ function NavBar() {
                                 '/books'
                             }
                             className={styles.navbarLink}
-                            id="link"
+                            id="books"
                         >
                             <span>
                                 {
@@ -104,7 +104,7 @@ function NavBar() {
                             localeString === 'nl-nl' ? pageLinks.nl.characters :
                             localeString === 'sv-se' ? pageLinks.sv.characters :
                             '/characters'
-                        } className={styles.navbarLink} id="link">
+                        } className={styles.navbarLink} id="characters">
                             <span>
                                 {
                                     localeString === 'en' ? pageNames.en.characters :
@@ -123,7 +123,7 @@ function NavBar() {
                             localeString === 'nl-nl' ? pageLinks.nl.timeline :
                             localeString === 'sv-sv' ? pageLinks.sv.timeline :
                             '/timeline'
-                        } className={styles.navbarLink} id="link">
+                        } className={styles.navbarLink} id="timeline">
                             <span>
                                {
                                     localeString === 'en' ? pageNames.en.timeline :
@@ -142,7 +142,7 @@ function NavBar() {
                             localeString === 'nl-nl' ? pageLinks.nl.about :
                             localeString === 'sv-se' ? pageLinks.sv.about :
                             '/about'
-                        } className={styles.navbarLink} id="link">
+                        } className={styles.navbarLink} id="about">
                             <span>
                                 {
                                     localeString === 'en' ? pageNames.en.about :
