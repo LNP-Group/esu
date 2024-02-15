@@ -21,6 +21,8 @@
 }
 
 .tile {
+    width: 220px;
+    height: 312.13px;
     max-width: 220px;
     max-height: 312.13px;
     flex-grow: 1;

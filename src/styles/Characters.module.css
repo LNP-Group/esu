@@ -46,6 +46,8 @@
 }
   
 .characterTile {
+    width: 270px;
+    height: 270px;
     max-width: 270px;
     max-height: 270px;
     flex-grow: 1;

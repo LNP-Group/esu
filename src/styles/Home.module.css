@@ -118,6 +118,8 @@
 }
 
 .tile {
+  width: 220px;
+  height: 312.13px;
   max-width: 220px;
   max-height: 312.13px;
   flex-grow: 1;
@@ -159,6 +161,8 @@
 }
 
 .characterTile {
+  width: 270px;
+  height: 270px;
   max-width: 270px;
   max-height: 270px;
   flex-grow: 1;
